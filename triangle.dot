@@ -1,0 +1,11 @@
+digraph{
+        edge [dir=none]
+        A -> B[label="0.88"]
+        B -> C[label="0.82"]
+        C -> A[label="0.81"]
+        C -> D[label="0.94"]
+        A[label="A,rank=30"]
+        B[label="B,rank=27"]
+        C[label="C,rank=39"]
+        D[label="D,rank=49"]
+}
